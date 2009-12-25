@@ -1,4 +1,4 @@
-" Chrysoprase color theme for (G)Vim, version 0.0.1
+" Chrysoprase color theme for (G)Vim, version 0.0.2
 " by Antoine Kalmbach <antoine dot kalmbach at jyu dot fi>
 
 hi clear
@@ -8,8 +8,8 @@ endif
 
 let colors_name = "chrysoprase"
 
-hi CursorLine guibg=#111111
-hi CursorColumn guibg=#111111
+hi CursorLine guibg=#cccccc
+hi CursorColumn guibg=#cccccc
 hi MatchParen guifg=white guibg=#dd1144 gui=bold
 hi TabLine guifg=white guibg=#445588 gui=italic
 hi TabLineFill guifg=#9098a0
@@ -17,7 +17,7 @@ hi TabLineSel guifg=white guibg=#dd1144 gui=bold
 hi Pmenu guifg=#222222 guibg=#990000
 hi Title      guifg=#202020 gui=bold
 hi Underlined  guifg=#202020 gui=underline
-hi Cursor    guifg=black   guibg=#333333
+hi Cursor    guifg=white   guibg=#333333
 hi lCursor   guifg=black   guibg=white
 hi LineNr    guifg=#444444 guibg=#dddddd 
 hi Normal    guifg=#000000   guibg=#eeeeee
